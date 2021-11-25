@@ -7,6 +7,7 @@ router.post('/sub',operationsC.validate,operationsC.sub);
 router.post('/multi',operationsC.validate,operationsC.multi);
 router.post('/div',operationsC.validate,operationsC.div);
 router.post('/det',operationsC.validate,operationsC.div);
+router.post('/min',operationsC.validate,operationsC.div);
 
 module.exports = router;
 
