@@ -9,6 +9,7 @@ router.post('/div',operationsC.validate,operationsC.div);
 router.post('/det',operationsC.validate,operationsC.div);
 router.post('/min',operationsC.validate,operationsC.div);
 router.post('/max',operationsC.validate,operationsC.div);
+router.post('/del',operationsC.validate,operationsC.div);
 
 module.exports = router;
 
